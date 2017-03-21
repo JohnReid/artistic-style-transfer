@@ -1,5 +1,5 @@
-appdirs==1.4.0
-appnope==0.1.0
+# appdirs==1.4.0
+# appnope==0.1.0
 backports-abc==0.5
 backports.shutil-get-terminal-size==1.0.0
 bleach==1.5.0
@@ -7,10 +7,11 @@ certifi==2017.1.23
 configparser==3.5.0
 cycler==0.10.0
 decorator==4.0.11
-entrypoints==0.2.2
+# entrypoints==0.2.2
 enum34==1.1.6
 funcsigs==1.0.2
-functools32==3.2.3.post2
+# functools32==3.2.3.post2
+functools32
 h5py==2.6.0
 html5lib==0.9999999
 ipykernel==4.5.2
@@ -31,7 +32,7 @@ mock==2.0.0
 nbconvert==5.1.1
 nbformat==4.2.0
 notebook==4.4.1
-numpy==1.12.0
+# numpy==1.12.0
 olefile==0.44
 packaging==16.8
 pandocfilters==1.4.1
@@ -56,11 +57,13 @@ simplegeneric==0.8.1
 singledispatch==3.4.0.3
 six==1.10.0
 subprocess32==3.2.7
-tensorflow==1.0.0
+# tensorflow==1.0.0
+tensorflow
+# https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.0.1-cp27-none-linux_x86_64.whl
 terminado==0.6
-testpath==0.3
+# testpath==0.3
 Theano==0.8.2
 tornado==4.4.2
 traitlets==4.3.1
 wcwidth==0.1.7
-widgetsnbextension==1.2.6
+# widgetsnbextension==1.2.6
